@@ -196,33 +196,3 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/guidex
 JWT_SECRET=your_super_secret_key_here
 FRONTEND_URL=https://your-client-app.vercel.app
 ```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18+)
-- MongoDB Atlas account (or local MongoDB)
-
-### Installation
-
-```bash
-npm install
-```
-
-### Running Locally
-
-```bash
-npm run dev     # Starts with nodemon on http://localhost:5000
-```
-
-### Deploy to Vercel
-
-1. Push this repo to GitHub.
-2. Import the repo on [vercel.com](https://vercel.com).
-3. Add environment variables in Vercel dashboard:
-   - `MONGO_URI`
-   - `JWT_SECRET`
-   - `FRONTEND_URL` (your deployed client URL)
-4. Deploy — Vercel auto-detects `vercel.json` and serves `server.js` as a serverless function.
